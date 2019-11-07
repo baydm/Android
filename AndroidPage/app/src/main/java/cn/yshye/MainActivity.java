@@ -11,15 +11,19 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import cn.yshye.page.HandlerActivity;
+import cn.yshye.page.HttpActivity;
+import cn.yshye.page.MultiDownFileActivity;
 import cn.yshye.page.R;
 import cn.yshye.page.ShowImageActivity;
 import cn.yshye.page.WebSourceActivity;
 
 public class MainActivity extends AppCompatActivity {
     private PageBean[] pages = new PageBean[]{
-            new PageBean("WebSource", WebSourceActivity.class),
-            new PageBean("ShowImage", ShowImageActivity.class),
-            new PageBean("HandlerDelayed", HandlerActivity.class),
+            new PageBean("显示网页内容", WebSourceActivity.class),
+            new PageBean("显示图片", ShowImageActivity.class),
+            new PageBean("消息处理", HandlerActivity.class),
+            new PageBean("Http请求", HttpActivity.class),
+            new PageBean("多线程下载", MultiDownFileActivity.class),
     };
 
     @Override

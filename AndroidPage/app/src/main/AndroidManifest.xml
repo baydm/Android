@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MultiDownFileActivity" android:label="多线程下载"/>
+        <activity android:name=".HttpActivity" android:label="Http请求"/>
         <activity android:name=".HandlerActivity" />
         <activity android:name=".ShowImageActivity" />
         <activity android:name=".WebSourceActivity" />

@@ -23,6 +23,9 @@ import java.net.URL;
 import cn.yshye.base.BaseActivity;
 import cn.yshye.util.Utils;
 
+/**
+ * 显示图片
+ */
 public class ShowImageActivity extends BaseActivity {
 
     private EditText et_url;

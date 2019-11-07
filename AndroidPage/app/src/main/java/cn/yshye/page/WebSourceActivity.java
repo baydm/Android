@@ -22,7 +22,9 @@ import javax.net.ssl.HttpsURLConnection;
 import cn.yshye.base.BaseActivity;
 import cn.yshye.util.Utils;
 
-
+/**
+ * 显示网页内容
+ */
 public class WebSourceActivity extends BaseActivity {
     private EditText et_url;
     private Button btn_show;
